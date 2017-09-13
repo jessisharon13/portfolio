@@ -1,1 +1,472 @@
-<h1>Welcome to my portfolio!</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/camera.css">
+  <link rel="stylesheet" href="css/contact-form.css">
+  <link rel="stylesheet" href="css/touchTouch.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-1.1.1.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/jquery.ui.totop.js"></script>
+  <script src="js/touchTouch.jquery.js"></script>
+  <script src="js/isotope.pkgd.js"></script>
+  <script src="js/TMForm.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/camera.js"></script>
+  <!--[if (gt IE 9)|!(IE)]><!-->
+  <script src="js/jquery.mobile.customized.min.js"></script>
+  <!--<![endif]-->
+  <script>
+    $(window).load(function () {
+      $().UItoTop({ easingType: 'easeOutQuart' });
+      $('.gallery .gall_item').touchTouch();
+    });
+    // $(document).ready(function () {
+    //   jQuery('#camera_wrap').camera({
+    //     loader: false,
+    //     pagination: true,
+    //     minHeight: '500',
+    //     thumbnails: false,
+    //     height: '44.42708333333333%',
+    //     caption: true,
+    //     navigation: false,
+    //     fx: 'mosaic'
+    //   });
+    //   $('.gallery .gall-item').touchTouch();
+    // });
+
+  </script>
+  <!--[if lt IE 8]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<![endif]-->
+  <!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+
+<body>
+  <div class="texture">
+    <!--==============================
+              header
+=================================-->
+    <header id="home" class="page">
+      <div class="navigation single-page-nav">
+        <div class="container_12">
+          <div class="grid_12">
+            <h1 class="logo">
+              <a href="index.html">Jessica Schwartz</a>
+            </h1>
+            <nav>
+              <ul>
+                <li><a href="#home" class="current">Home</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contacts">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!--<div id="camera_wrap">
+    <div data-src="images/sl1.jpg">
+      <div class="caption fadeIn">Creative <span class="bull"></span> Passionate  <span class="bull"></span> Diligent</div>
+    </div>
+    <div data-src="images/sl2.jpg">
+      <div class="caption fadeIn">Global Impact</div>
+    </div>
+    <div data-src="images/slide-3.jpg">
+      <div class="caption fadeIn">Improve Lives</div>
+    </div>
+  </div>-->
+    </header>
+    <!--=====================
+          Content
+======================-->
+    <section class="content">
+      <div class="pad-1">
+        <div class="container_12">
+          <div class="grid_12">
+            <h2 style="padding-top:150px;padding-bottom:0px;">Hi! I'm Jessica.</h2>
+            <div class="extra_wrapper">
+              <img src="images/download.png" alt="" class="fleft" style="height:275px;width:255px;">
+              <h2 style="font-size:30px;padding-top:0px;padding-bottom:0px;text-align:left;margin-bottom:0px;"> Creative. Passionate. Diligent.</h2>
+              <p>I'm a motivated, soon-to-be college graduate who's excited to change the world. I've always loved to make things
+                for others, from hats to banana chocolate chip muffins. I became a Software Developer to make things that
+                will change the world for the better. With a background in leadership and technical skills, I love finding
+                innovative solutions to problems. Let's change the world together.</p>
+              <p>Find me on <a href="https://www.linkedin.com/in/jessi-schwartz/" class="color1">LinkedIn</a>. </p>
+              <a href="/images/resume.docx" class="btn" style="margin-top:0px;" download>Download My Resume</a>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <section id="portfolio" class="page">
+        <h2>Projects</h2>
+        <div style="margin-left:1in;margin-right:1in;">
+          <h2 style="margin-top:0px;padding-top:0px;"><span style="color:white;font-size:30px;">Data Visualization</span></h2>
+          <p> With my team, I created a web app with an interactive visual tool to display data from the USDA’s Food Environment
+            Atlas to explore how various factors involved in the food environment of a county correlate with each other and
+            diabetes and obesity rates. This visualization enables the exploration of relationships through a two-layer choropleth
+            map developed in D3 which shows the distribution of data for two user-selected variables throughout the US.
+            <a href="https://cse442-17s.github.io/Diabetes-and-Obesity-Factors/final/">Click here to view the final project page</a>            and watch the video below for more information.
+          </p>
+          <section>
+            <div style="width:720px; height:405px; margin:35px auto 35px auto;">
+              <iframe src="https://player.vimeo.com/video/219766960" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                allowfullscreen></iframe>
+            </div>
+            <!--  <p><em>[Add hero image or embedded video here.]</em></p> -->
+          </section>
+        </div>
+        <div style="margin-left:1in;margin-right:1in;">
+          <h2 style="margin-top:0px;padding-top:0px;"><span style="color:white;font-size:30px">Accessibility Capstone</span></h2>
+          <p> I worked with a partner and a team of needs experts to design an app to improve accessibility of community activities
+            to children with special needs. We used React Native and PostgreSQL to develop a prototype for an app to help
+            families of children with disabilities find community activities that are appropriate for their needs. Watch
+            the video below for more information. </p>
+          <div style="width:560px; height:315px; margin:35px auto 35px auto;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZQ-XTS_KBb4?rel=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div style="margin-left:1in;margin-right:1in;">
+          <h2 style="margin-top:0px;padding-top:0px;"><span style="color:white;font-size:30px">Hack-A-Thon: Boommates</span></h2>
+          <p> My team and I won "Judges' Favorite" for our app, Boommates. We designed an app to help roomates keep track of
+            their chore responsibilities and anonymizes the inevitable reminders from one to another to do their chore. The
+            app uses a system of monetary incentives and integrates with Google Home for ease of use. We are currenty working
+            on perfecting our app and getting it to the app store. </p>
+        </div>
+      </section>
+      <section id="skills" class="page">
+        <div class="container_12">
+          <div class="grid_12">
+            <h2>Skills</h2>
+          </div>
+          <ul>
+            <li>Object-Oriented Programming</li>
+            <li>Front-End Development</li>
+            <li>Data Science & Visualization</li>
+            <li>Leadership & Leadership Training</li>
+            <li>Team Building</li>
+          </ul>
+        </div>
+      </section>
+      <section id="experience" class="page">
+        <div class="container_12">
+          <div class="grid_12">
+            <h2>Work Experience</h2>
+            <div class="block-1">
+              <div class="grid_4 alpha">
+                <div class="block-1__left">
+                  <h3>Summer 2017</h3>
+                  <time datetime="2014-01-01" class="text-2">June - August</time>
+                  <div class="ta__right">
+                    <div class="text-2 color1">Radiflow</div>
+                    Tel Aviv based cyber security start-up
+                  </div>
+                </div>
+              </div>
+              <div class="grid_8 omega">
+                <div class="block-2__right">
+                  <h3>Job Description</h3>
+                  <div class="text-2">Front-End Development Intern</div>
+                  <p>At Radiflow, I interned as a Front-end Developer on the iSID Intrusion Detection System (IDS) team. I improved
+                    the performance and usability of iSID by helping develop a new version of iSID and implementing UI enhancements.
+                    I completed the internship as part of the Israel Tech Challenge Interns program which included educational
+                    components about cyber security, IoT, and Israeli startup culture. I gained a deeper appreciation for
+                    diversity in the workplace as I discovered the various ways the Israeli culture added to the team.</p>
+                </div>
+              </div>
+            </div>
+            <div class="block-1">
+              <div class="grid_4 alpha">
+                <div class="block-1__left">
+                  <h3>Summer 2016</h3>
+                  <time datetime="2014-01-01" class="text-2">June - August</time>
+                  <div class="ta__right">
+                    <div class="text-2 color1">The Honest Company</div>
+                    E-commerce site based in Los Angeles
+                  </div>
+                </div>
+              </div>
+              <div class="grid_8 omega">
+                <div class="block-2__right">
+                  <h3>Job Description</h3>
+                  <div class="text-2">Engineering Intern</div>
+                  <p> As an intern on the back-end development team for the company’s e-commerce website, I improved the team’s
+                    system monitoring. I worked with another intern to develop a new dashboard using D3 to visualize the
+                    flow of data through the system. The dashboard has enabled the team to easily identify problems and monitor
+                    performance through time.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </section>
+      <section id="contacts" class="page">
+        <div class="container_12">
+          <div class="grid_12">
+            <h2>Reach Out!</h2>
+          </div>
+          <div class="grid_6">
+            E-mail: <a href="mailto:jessisharon13@gmail.com">jessisharon13@gmail.com</a>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+  </div>
+  </section>
+  </section>
+  <!--==============================
+              footer
+=================================-->
+  </div>
+  <footer id="footer">
+    <div class="container_12">
+      <div class="grid_12">
+      </div>
+    </div>
+    <div class="clear"></div>
+  </footer>
+  <a href="#" id="toTop" class="fa fa-chevron-up"></a>
+  <script src="js/jquery.singlePageNav.min.js"></script>
+  <script>
+    // Prevent console.log from generating errors in IE for the purposes of the demo
+    if (!window.console) console = { log: function () { } };
+    // The actual plugin
+    $('.single-page-nav').singlePageNav({
+      offset: $('.single-page-nav').outerHeight(),
+      filter: ':not(.external)',
+      updateHash: true,
+      beforeStart: function () {
+        console.log('begin scrolling');
+      },
+      onComplete: function () {
+        console.log('done scrolling');
+      }
+    });
+
+  </script>
+  <!--<script type="text/javascript">
+    google_api_map_init();
+    function google_api_map_init() {
+      var map;
+      var coordData = new google.maps.LatLng(parseFloat(40.646197), parseFloat(-73.9724068, 14));
+      var styleArray = [
+        {
+          "featureType": "water",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#193341"
+            }
+          ]
+        },
+        {
+          "featureType": "landscape",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#2c5a71"
+            }
+          ]
+        },
+        {
+          "featureType": "road",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#29768a"
+            },
+            {
+              "lightness": -37
+            }
+          ]
+        },
+        {
+          "featureType": "poi",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#406d80"
+            }
+          ]
+        },
+        {
+          "featureType": "transit",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#406d80"
+            }
+          ]
+        },
+        {
+          "elementType": "labels.text.stroke",
+          "stylers": [
+            {
+              "visibility": "on"
+            },
+            {
+              "color": "#3e606f"
+            },
+            {
+              "weight": 2
+            },
+            {
+              "gamma": 0.84
+            }
+          ]
+        },
+        {
+          "elementType": "labels.text.fill",
+          "stylers": [
+            {
+              "color": "#ffffff"
+            }
+          ]
+        },
+        {
+          "featureType": "administrative",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "weight": 0.6
+            },
+            {
+              "color": "#1a3541"
+            }
+          ]
+        },
+        {
+          "elementType": "labels.icon",
+          "stylers": [
+            {
+              "visibility": "off"
+            }
+          ]
+        },
+        {
+          "featureType": "poi.park",
+          "elementType": "geometry",
+          "stylers": [
+            {
+              "color": "#2c5a71"
+            }
+          ]
+        }
+      ]
+      function initialize() {
+        var mapOptions = {
+          zoom: 13,
+          center: coordData,
+          scrollwheel: false,
+          styles: styleArray
+        }
+        var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+        google.maps.event.addDomListener(window, 'resize', function () {
+          map.setCenter(coordData);
+          var center = map.getCenter();
+        });
+      }
+      google.maps.event.addDomListener(window, "load", initialize);
+    }
+  </script>-->
+  <!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
+  <script src="js/jquery.knob.js"></script>
+  <script>
+          $(function ($) {
+            $(".knob").knob({
+              change: function (value) {
+                //console.log("change : " + value);
+              },
+              release: function (value) {
+                //console.log(this.$.attr('value'));
+                console.log("release : " + value);
+              },
+              cancel: function () {
+                console.log("cancel : ", this);
+              },
+              /*format : function (value) {
+                  return value + '%';
+              },*/
+              draw: function () {
+                // "tron" case
+                if (this.$.data('skin') == 'tron') {
+                  this.cursorExt = 0.3;
+                  var a = this.arc(this.cv)  // Arc
+                    , pa                   // Previous arc
+                    , r = 1;
+                  this.g.lineWidth = this.lineWidth;
+                  if (this.o.displayPrevious) {
+                    pa = this.arc(this.v);
+                    this.g.beginPath();
+                    this.g.strokeStyle = this.pColor;
+                    this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, pa.s, pa.e, pa.d);
+                    this.g.stroke();
+                  }
+                  this.g.beginPath();
+                  this.g.strokeStyle = r ? this.o.fgColor : this.fgColor;
+                  this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, a.s, a.e, a.d);
+                  this.g.stroke();
+                  this.g.lineWidth = 2;
+                  this.g.beginPath();
+                  this.g.strokeStyle = this.o.fgColor;
+                  this.g.arc(this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
+                  this.g.stroke();
+                  return false;
+                }
+              }
+            });
+            // Example of infinite knob, iPod click wheel
+            var v, up = 0, down = 0, i = 0
+              , $idir = $("div.idir")
+              , $ival = $("div.ival")
+              , incr = function () { i++; $idir.show().html("+").fadeOut(); $ival.html(i); }
+              , decr = function () { i--; $idir.show().html("-").fadeOut(); $ival.html(i); };
+            $("input.infinite").knob(
+              {
+                min: 0
+                , max: 20
+                , stopper: false
+                , change: function () {
+                  if (v > this.cv) {
+                    if (up) {
+                      decr();
+                      up = 0;
+                    } else { up = 1; down = 0; }
+                  } else {
+                    if (v < this.cv) {
+                      if (down) {
+                        incr();
+                        down = 0;
+                      } else { down = 1; up = 0; }
+                    }
+                  }
+                  v = this.cv;
+                }
+              });
+          });
+
+  </script>
+  <script src="js/isotop_ini.js"></script>
+</body>
+
+</html>
